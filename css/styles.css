@@ -52,20 +52,6 @@ img {
     overflow: hidden;
 }
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-    border: 0;
-} */
-
-
-
 /* header */
 
 .page-header {
@@ -207,6 +193,14 @@ img {
     padding-bottom: 120px;
 }
 
+.values-list {
+    display: flex;
+    gap: 24px;
+}
+.values-item {
+width: calc((100% - 72px) / 4);
+}
+
 
 .text-content {    
         font-weight: 400;
@@ -215,8 +209,6 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
 }
-
-
 
 /* section three */
 
