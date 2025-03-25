@@ -158,20 +158,38 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 48px;
         max-width: 496px;
-        margin-bottom: 48px;  
-        margin-left: auto;
+                margin-left: auto;
             margin-right: auto;
         }
 
-.order-btn {    
+.order-btn {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+}
+
+/* .order-btn {    
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5
-}
+        
+} */
 
 .order-btn:hover,
 .order-btn:focus {
