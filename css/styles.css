@@ -58,9 +58,11 @@ img {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 .nav-list {
     display: flex;
+    
 }
 .contacts-list {
     display: flex;
