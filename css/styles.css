@@ -218,8 +218,16 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     padding-top: 120px; 
     padding-bottom: 120px;  
 }
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+
 .container-values {
     background-color: #fff;
+    width: calc((100% - 72px) / 4);    
     }
 
 
